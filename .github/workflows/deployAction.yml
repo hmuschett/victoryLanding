@@ -30,7 +30,9 @@ jobs:
         username: root
         key: ${{ secrets.serverKey }}
         port: 22
-        scritp: 
-          cd /var/www/html && git pull origin master
+        script: 
+          cd /var/www/html/ 
+          git pull origin master
+           git status 
 
    
