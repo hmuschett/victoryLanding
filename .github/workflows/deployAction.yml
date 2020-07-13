@@ -31,8 +31,8 @@ jobs:
         key: ${{ secrets.serverKey }}
         port: 22
         script: 
-          cd /var/www/html/ 
+          sudo cd /var/www/html/ 
           git pull origin master
-           git status 
+          git status 
 
    
